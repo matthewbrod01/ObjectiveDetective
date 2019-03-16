@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		13621268221BDB51008CAB2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13621267221BDB51008CAB2C /* AppDelegate.swift */; };
-		1362126A221BDB51008CAB2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13621269221BDB51008CAB2C /* ViewController.swift */; };
 		1362126D221BDB51008CAB2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1362126B221BDB51008CAB2C /* Main.storyboard */; };
 		1362126F221BDB54008CAB2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362126E221BDB54008CAB2C /* Assets.xcassets */; };
 		13621272221BDB54008CAB2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13621270221BDB54008CAB2C /* LaunchScreen.storyboard */; };
+		1362127A221BDB80008CAB2C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13621279221BDB80008CAB2C /* CameraViewController.swift */; };
+		1362127C221BE3F5008CAB2C /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1362127B221BE3F5008CAB2C /* MobileNet.mlmodel */; };
+		1362127E221BE648008CAB2C /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1362127D221BE648008CAB2C /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13621264221BDB51008CAB2C /* Objective Detective.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective Detective.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13621267221BDB51008CAB2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		13621269221BDB51008CAB2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1362126C221BDB51008CAB2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1362126E221BDB54008CAB2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13621271221BDB54008CAB2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13621273221BDB54008CAB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13621279221BDB80008CAB2C /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		1362127B221BE3F5008CAB2C /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		1362127D221BE648008CAB2C /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				13621267221BDB51008CAB2C /* AppDelegate.swift */,
-				13621269221BDB51008CAB2C /* ViewController.swift */,
+				13621279221BDB80008CAB2C /* CameraViewController.swift */,
+				1362127B221BE3F5008CAB2C /* MobileNet.mlmodel */,
+				1362127D221BE648008CAB2C /* Resnet50.mlmodel */,
 				1362126B221BDB51008CAB2C /* Main.storyboard */,
 				1362126E221BDB54008CAB2C /* Assets.xcassets */,
 				13621270221BDB54008CAB2C /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1362126A221BDB51008CAB2C /* ViewController.swift in Sources */,
 				13621268221BDB51008CAB2C /* AppDelegate.swift in Sources */,
+				1362127A221BDB80008CAB2C /* CameraViewController.swift in Sources */,
+				1362127E221BE648008CAB2C /* Resnet50.mlmodel in Sources */,
+				1362127C221BE3F5008CAB2C /* MobileNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
